@@ -1,0 +1,6 @@
+sudo: requires
+services:
+  - docker
+language: generic
+script:
+  - make docker
